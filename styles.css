@@ -1,0 +1,145 @@
+body {
+    font-family: 'Abel', sans-serif;
+  }
+  .wrapper {
+    background: white;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 15px;
+    /* border: 1px solid red; */
+    filter: drop-shadow(1px 1px 5px rgb(138, 140, 141));
+
+
+  }
+  h1 {
+    width: 100%;
+    text-align: center;
+    background: rgb(63, 63, 63);
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .weatherBoard {
+    padding: 0;
+    /* display: flex;
+    flex-direction: row; */
+  }
+  .col-3 {
+    margin: 0;
+    padding: 0;
+  }
+  .col-8 {
+    border: 1px solid greenyellow ;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .cityBtns {
+    display: block;
+    width: 90%;
+    padding: 10px 10px 10px 15px;
+    margin: 12px auto;
+    text-align: left;
+    border-radius: 38px;
+    border: 1px solid rgb(187, 187, 187);
+    transition: all ease .7s;
+    justify-content: space-between;
+    display: flex;
+  }
+  .cityBtns:hover {
+    color: white;
+    /* background-color: salmon; */
+    background-image: linear-gradient(45deg, #50A7C2, #B7F8DB);
+    border: none;
+    filter: drop-shadow(1px 1px 5px rgb(48, 98, 114));
+  /* background-image: linear-gradient(45deg, rgb(235, 154, 88),rgb(236, 89, 84)); */
+  }
+  /* #96deda → #50c9c3 */
+  /* #96deda → #50c9c3 */
+  /* #da3479,  salmon */
+
+  /* #B7F8DB → #50A7C2 */
+  .cityBtns:active {
+    filter: none;  
+  }
+  .searchField {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .futureDays {
+    /* display: flex;
+    flex-direction: row; */
+    margin: 0;
+  }
+  #mainWeathInfo {
+    position: relative;
+  }
+  h2 {
+    color: rgb(88, 88, 88);
+    font-size: 6rem;
+    font-weight: 100;
+    /* position: absolute;
+    bottom: 20px;
+    left: 20px; */
+  }
+  .lead{
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+  }
+  .btnArea {
+    background: #e6f1f1;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+
+  }
+  .card {
+    padding: 15px;
+    background-image: linear-gradient(45deg, #96deda, #50c9c3);
+    /* width: 15%; */
+    /* color: white; */
+    border-radius: 7px;
+    font-size: .8rem;
+    margin: 5px;
+  }
+  .card:hover {
+    filter: drop-shadow(1px 1px 5px rgb(138, 140, 141));
+
+  }
+
+  #add-city {
+    margin: 0;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: gray;
+  }
+
+  #city-input {
+    width: 100%;
+    padding: 10px 10px 10px 15px;
+    border-radius: 38px;
+    border: 1px solid rgb(187, 187, 187);
+    margin: 0;
+  }
+  .cityInfo {
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.103);
+    padding: 20px;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+    /* color: indigo; */
+  }
+  .uvBox {
+    padding: 10px;
+    border-radius: 5px;
+    /* display: ; */
+  }

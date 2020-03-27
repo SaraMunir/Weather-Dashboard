@@ -36,7 +36,6 @@
             }
           }
         cities.push(userText);
-      //  localStorage.setItem("cities", JSON.stringify(cities))
         localStorage.cities = JSON.stringify( cities );
         renderButtons();
       });

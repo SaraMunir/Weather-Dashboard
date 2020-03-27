@@ -77,7 +77,7 @@ body {
     position: relative;
   }
   h2 {
-    color: rgb(88, 88, 88);
+    color: white;
     font-size: 6rem;
     font-weight: 100;
     /* position: absolute;
@@ -129,7 +129,10 @@ body {
     margin: 0;
   }
   .cityInfo {
+    color: white;
     height: 60vh;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), #171717),
+    url('assets/photo-1519681393784-d120267933ba.jfif');
     background-color: rgba(0, 0, 0, 0.103);
     padding: 20px;
   }
